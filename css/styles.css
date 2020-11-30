@@ -1,0 +1,131 @@
+body {
+  font-family: "roc grotesk", regular;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-kerning: normal;
+  font-size: 100px;
+  line-height: 150%;
+  margin-left: 90px;
+  font-family: beastly, sans-serif;
+  font-kerning: 50px;
+  font-weight: 400;
+  font-style: normal;
+  color: #dcc6f1;
+}
+
+h2 {
+  font-family: "roc grotesk wide", bold;
+  font-size: 30px;
+  line-height: 150%;
+}
+p {
+  line-height: 150%;
+}
+
+img {
+  /* limiting the width of img so it takes 100 worth of the parent maximun */
+  max-width: 100%;
+}
+
+nav {
+  background-color: rgb(220, 198, 241);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav a li:hover {
+  text-decoration: underline;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+header {
+  top: 110px;
+  position: relative;
+  margin-bottom: 220px;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.button {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 10px 30px;
+  margin-top: 40px;
+  display: inline-block;
+  border-radius: 20px;
+  background-color: white;
+  transition: background 0.5s ease-in-out, color ease-in-out;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.skills-list {
+  text-align: center;
+  font-size: 50px;
+  line-height: 150%;
+  margin-bottom: 130px;
+  color: white;
+  padding: 50px;
+}
+
+.project {
+  margin: 30px 0;
+  padding: 50px;
+}
+
+.lila {
+  background-color: #dcc6f1;
+  /* border: 1px solid black; */
+}
+
+.project .button {
+  margin-top: 40px;
+}
+
+.skill-back {
+  background-color: black;
+}
+
+.background-vrsk {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 440px;
+}
+footer {
+  text-align: center;
+  margin: 80px;
+}
+
+footer h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: black;
+}
