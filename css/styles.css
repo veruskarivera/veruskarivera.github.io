@@ -1,23 +1,26 @@
 body {
-  font-family: "roc grotesk", regular;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 h1 {
   font-kerning: normal;
-  font-size: 100px;
+  font-size: 105px;
   line-height: 150%;
   margin-left: 90px;
-  font-family: beastly, sans-serif;
-  font-kerning: 50px;
+  font-family: cheee-oldskool, sans-serif;
   font-weight: 400;
+  font-kerning: 50px;
   font-style: normal;
   color: #dcc6f1;
+  text-shadow: 2px 2px #000000;
 }
 
 h2 {
-  font-family: "roc grotesk wide", bold;
   font-size: 30px;
   line-height: 150%;
 }
@@ -38,24 +41,29 @@ nav {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
 nav a li:hover {
   text-decoration: underline;
 }
 
 nav ul li {
   display: inline-block;
-  margin: 0 10px;
-  padding: 0;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
   text-decoration: none;
   color: black;
 }
 
 nav ul {
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid black;
+}
+
+.navmenu {
+  margin-left: 75px;
 }
 
 header {
@@ -87,12 +95,16 @@ ul li {
 }
 
 .skills-list {
-  text-align: center;
-  font-size: 50px;
+  text-align: right;
+  font-size: 30px;
   line-height: 150%;
-  margin-bottom: 130px;
-  color: white;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  color: #dcc6f1;
   padding: 50px;
+  font-family: roc-grotesk-wide, sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .project {
@@ -102,7 +114,13 @@ ul li {
 
 .lila {
   background-color: #dcc6f1;
+  border: 1px solid black;
+}
+
+.orange {
+  background-color: #f18f01;
   /* border: 1px solid black; */
+  color: white;
 }
 
 .project .button {
@@ -111,11 +129,12 @@ ul li {
 
 .skill-back {
   background-color: black;
+  margin-right: 0px;
 }
 
 .background-vrsk {
   position: absolute;
-  margin-top: 140px;
+  margin-top: -220px;
   margin-left: 440px;
 }
 footer {
