@@ -3,20 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>veruska's design work</title>
+    <title>Veruska's Work</title>
     <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <link rel="stylesheet" href="https://use.typekit.net/kns7mox.css" />
-
+    <script src="script.js"></script>
     <link rel="shortcut icon" href="img/cherry.png" />
   </head>
 
   <body>
     <nav class="container-nav">
       <ul>
-        <a href="index.html"><li>home</li></a>
-        <a href="work.html"><li>work</li></a>
-        <a href="experience.html"><li>about</li></a>
+        <div class="navmenu">
+          <a href="index.html"><li>home</li></a>
+          <a href="work.html"><li class="active">work</li></a>
+          <a href="experience.html"><li>about</li></a>
+        </div>
       </ul>
     </nav>
 
@@ -24,24 +26,49 @@
       <div class="container-head">
         <div class="row">
           <!--left column-->
-         
-            <h1>veruska's work</h1>
+          <div class="col-sm">
+            <div>
+              <h1 class="work-title">
+                Selected<br />
+                work
+              </h1>
+              <img
+                src="img/purpleflower.svg"
+                alt="purpleflower"
+                class="purpleflower"
+              />
+              <img src="img/star.svg" alt="star" class="star" />
+              <img
+                src="img/greenflower.svg"
+                alt="greenflower"
+                class="greenflower"
+              />
+              <img src="img/smiley.svg" alt="smiley" class="smiley" />
+              <img
+                src="img/pineflower.svg"
+                alt="pineflower"
+                class="pineflower"
+              />
+              <img
+                src="img/purplestar.svg"
+                alt="purplestar"
+                class="purplestar"
+              />
+              <img src="img/bluestar.svg" alt="pineflower" class="bluestar" />
+            </div>
           </div>
-          <!--right column-->
-         
         </div>
       </div>
     </header>
 
-    <!--projects-->
-
-    <!--project 1-->
-    <section class="project orange ">
+    <section class="project line lila">
       <div class="container">
         <!-- left col -->
         <div class="row">
           <div class="col-sm">
-            <img src="img/cosmetics.jpg" alt="asl-app" />
+            <a href="asl.html">
+              <img src="img/cosmetics.jpg" alt="asl-app" class="project-img"
+            /></a>
           </div>
           <!-- right col -->
           <div class="col-sm">
@@ -52,8 +79,7 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <a class="button" href="">read more</a>
-            
+            <a class="button" href="asl.html">read case study</a>
           </div>
         </div>
       </div>
@@ -65,6 +91,15 @@
         <div class="row">
           <!-- left col -->
           <div class="col-sm">
+            <a href="checkin.html"
+              ><img
+                src="img/dashboard-app.jpg"
+                alt="checkin-app"
+                class="project-img"
+            /></a>
+          </div>
+          <!-- right col -->
+          <div class="col-sm">
             <h2>Check In App</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -72,23 +107,20 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <a class="button" href="">read more</a>
-          </div>
-          <!-- right col -->
-          <div class="col-sm">
-            <img src="img/dashboard-app.jpg" alt="checkin-app" />
+            <a class="button" href="checkin.html">read case study</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!--project 3-->
-    <section class="project orange ">
+    <!-- <section class="project lila">
       <div class="container">
         <div class="row">
-          <!-- left col -->
+ 
           <div class="col-sm">
-            <img src="img/ipad-app.jpg" alt="readup-app" />
+            <a href="readup.html">
+              <img src="img/ipad-app.jpg" alt="readup-app" class="project-img"
+            /></a>
           </div>
           <div class="col-sm">
             <h2>Read Up App</h2>
@@ -98,39 +130,38 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <a class="button" href="">read more</a>
+            <a class="button" href="readup.html">read case study</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!--project 4-->
-    <section class="project ">
+   
+    <section class="project line2">
       <div class="container">
         <div class="row">
-          <!-- left col -->
           <div class="col-sm">
-            <h2>100 Days Of UI</h2>
+            <a href="lucky.html"
+              ><img src="img/cosmetics.jpg" alt="Lucky904" class="project-img"
+            /></a>
+          </div>
+          <div class="col-sm">
+            <h2>Lucky904</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <a class="button" href="">read more</a>
-          </div>
-          <!-- right col -->
-          <div class="col-sm">
-            <img src="img/cosmetics.jpg" alt="100 days of UI" />
+            <a class="button" href="lucky.html">read case study</a>
           </div>
         </div>
-      </div>
-    </section>
-
-    <footer>
+      </div> -->
+    <!-- </section> -->
+    <footer class="line">
       <h2>
         Interested in working together? <br />
-        <a href="">let's talk.</a>
+        <a href="">drop me a line</a>
         <!-- riveraveruska@gmail.com -->
       </h2>
       <p>designed and developed by VRSK 2020</p>

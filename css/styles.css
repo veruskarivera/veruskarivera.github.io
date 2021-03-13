@@ -1,29 +1,26 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: roc-grotesk, sans-serif;
   font-weight: 300;
   font-style: normal;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
-h1 {
-  font-kerning: normal;
-  font-size: 105px;
-  line-height: 150%;
-  margin-left: 90px;
-  font-family: cheee-oldskool, sans-serif;
-  font-weight: 400;
-  font-kerning: 50px;
-  font-style: normal;
-  color: #dcc6f1;
-  text-shadow: 2px 2px #000000;
+a {
+  text-decoration: none;
 }
 
 h2 {
   font-size: 30px;
   line-height: 150%;
 }
+
 p {
   line-height: 150%;
 }
@@ -31,6 +28,19 @@ p {
 img {
   /* limiting the width of img so it takes 100 worth of the parent maximun */
   max-width: 100%;
+}
+
+
+
+.project-img {
+  border-radius: 10px;
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+.project-img:hover {
+  opacity: 0.5;
+  transition: 0.5s ease;
 }
 
 nav {
@@ -41,8 +51,19 @@ nav {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+nav a li {
+  font-size: 16px;
+}
+
 nav a li:hover {
-  text-decoration: underline;
+  font-size: 17px;
+  text-decoration: 3px underline #ebff00;
+}
+
+.active, nav a li:hover {
+  font-size: 17px;
+  text-decoration: 3px underline #ebff00;
 }
 
 nav ul li {
@@ -50,7 +71,7 @@ nav ul li {
   margin-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 10px;
+  padding: 12px;
   text-decoration: none;
   color: black;
 }
@@ -60,6 +81,7 @@ nav ul {
   margin: 0 auto;
   padding: 10px;
   border: 1px solid black;
+  text-decoration: none;
 }
 
 .navmenu {
@@ -80,31 +102,24 @@ ul li {
 .button {
   border: 1px solid black;
   text-decoration: none;
+  cursor: pointer;
   color: black;
   padding: 10px 30px;
   margin-top: 40px;
   display: inline-block;
   border-radius: 20px;
   background-color: white;
-  transition: background 0.5s ease-in-out, color ease-in-out;
+  box-shadow: 7px 6px #000000;
+  transition: background 0.3s ease-in-out, color ease-in-out;
+}
+
+.button a {
+  font-size: 16px;
 }
 
 .button:hover {
-  background-color: black;
-  color: white;
-}
-
-.skills-list {
-  text-align: right;
-  font-size: 30px;
-  line-height: 150%;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  color: #dcc6f1;
-  padding: 50px;
-  font-family: roc-grotesk-wide, sans-serif;
-  font-weight: 500;
-  font-style: normal;
+  font-size: 17px;
+  background-color: #ebff00;
 }
 
 .project {
@@ -115,12 +130,22 @@ ul li {
 .lila {
   background-color: #dcc6f1;
   border: 1px solid black;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.orange {
-  background-color: #f18f01;
-  /* border: 1px solid black; */
-  color: white;
+
+
+hr.solid {
+  border-top: 2px solid black;
+}
+
+.line {
+  border-top: 1px solid black;
+}
+
+.line2 {
+  border-bottom: 1px solid black;
 }
 
 .project .button {
@@ -132,14 +157,14 @@ ul li {
   margin-right: 0px;
 }
 
-.background-vrsk {
-  position: absolute;
-  margin-top: -220px;
-  margin-left: 440px;
-}
 footer {
   text-align: center;
   margin: 80px;
+
+}
+
+footer a {
+  text-decoration: none;
 }
 
 footer h2 {
@@ -147,4 +172,17 @@ footer h2 {
   margin-bottom: 50px;
   text-decoration: none;
   color: black;
+}
+
+.work {
+  padding-top: 100px;
+}
+
+.about {
+
+  margin: 30px 0;
+  padding: 50px;
+  border: 1px solid black;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }

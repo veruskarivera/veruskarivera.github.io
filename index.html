@@ -3,34 +3,45 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>veruska's work</title>
+    <title>Veruska Rivera</title>
     <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <link rel="stylesheet" href="https://use.typekit.net/kns7mox.css" />
-
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
     <link rel="shortcut icon" href="img/cherry.png" />
+    <script src="script.js"></script>
   </head>
 
   <body>
     <nav class="container-nav">
       <ul>
         <div class="navmenu">
-          <a href="index.html"><li>home</li></a>
-          <a href="work.html"><li>work</li></a>
-          <a href="experience.html"><li>about</li></a>
+          <a  href="index.html">
+            <li class="active">home</li>
+          </a>
+          <!-- <a href="#projects"> -->
+            <a href="work.html">
+            <li>work</li>
+          </a>
+          <a href="experience.html">
+            <li>about</li>
+          </a>
         </div>
       </ul>
     </nav>
-
     <header>
       <div class="container-head">
         <div class="row">
           <!--left column-->
           <div class="col-sm">
-            <h1>Veruska <br />Rivera</h1>
-          </div>
+            <div>
+              <h1 class="landing-title">Veruska <br />Rivera</h1>
+            </div>
+          </div class="col-sm">
           <!--right column-->
-          <img src="img/vrsk.png" alt="veruska" class="background-vrsk" />
+          <img src="img/vrsk.png" alt="veruska" class="background-vrsk hide" />
         </div>
       </div>
     </header>
@@ -39,23 +50,16 @@
       <ul class="skills-list">
         <li>ux designer + web developer</li>
         <li>intern @ orlando spencer i, inc</li>
-
-        <!-- <li>Skills</li>
-        <li>_Wireframing</li>
-        <li>_UX Design</li>
-        <li>_User Research</li>
-        <li>_Programming</li> -->
       </ul>
     </section>
     <!--projects-->
-
     <!--project 1-->
-    <section class="project ">
+    <section id="projects" class="project">
       <div class="container">
         <!-- left col -->
         <div class="row">
           <div class="col-sm">
-            <img src="img/cosmetics.jpg" alt="asl-app" />
+           <a href="asl.html"> <img  src="img/cosmetics.jpg" alt="asl-app" class="project-img" /></a>
           </div>
           <!-- right col -->
           <div class="col-sm">
@@ -66,7 +70,7 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <a class="button" href="">read more</a>
+            <a class="button" href="asl.html">read case study</a>
           </div>
         </div>
       </div>
@@ -78,6 +82,10 @@
         <div class="row">
           <!-- left col -->
           <div class="col-sm">
+              <a href="checkin.html"><img src="img/dashboard-app.jpg" alt="checkin-app" class="project-img"/></a>
+            </div>
+            <!-- right col -->
+          <div class="col-sm">
             <h2>Check In App</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -85,23 +93,19 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <a class="button" href="">read more</a>
-          </div>
-          <!-- right col -->
-          <div class="col-sm">
-            <img src="img/dashboard-app.jpg" alt="checkin-app" />
+            <a class="button" href="checkin.html">read case study</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!--project 3-->
-    <section class="project ">
+    
+    <!-- <section class="project">
       <div class="container">
         <div class="row">
-          <!-- left col -->
+      
           <div class="col-sm">
-            <img src="img/ipad-app.jpg" alt="readup-app" />
+          <a href="readup.html">  <img src="img/ipad-app.jpg" alt="readup-app" class="project-img" /></a>
           </div>
           <div class="col-sm">
             <h2>Read Up App</h2>
@@ -111,39 +115,37 @@
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <a class="button" href="">read more</a>
+            <a class="button" href="readup.html">read case study</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!--project 4-->
+   
     <section class="project lila">
       <div class="container">
         <div class="row">
-          <!-- left col -->
           <div class="col-sm">
-            <h2>100 Days Of UI</h2>
+              <a href="lucky.html"><img src="img/cosmetics.jpg" alt="Lucky904"   class="project-img"/></a>
+            </div>
+          <div class="col-sm">
+            <h2>Lucky904</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <a class="button" href="">read more</a>
-          </div>
-          <!-- right col -->
-          <div class="col-sm">
-            <img src="img/cosmetics.jpg" alt="100 days of UI" />
-          </div>
+            <a class="button" href="lucky.html">read case study</a>
+          </div>  
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <footer>
+    <footer class="about">
       <h2>
         Interested in working together? <br />
-        <a href="">let's talk.</a>
+        <a href="">drop me a line</a>
         <!-- riveraveruska@gmail.com -->
       </h2>
       <p>designed and developed by VRSK 2020</p>
