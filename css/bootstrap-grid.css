@@ -82,7 +82,6 @@ html {
     text-shadow: 2px 2px #000000;
   }
 
-
   .work-title {
     text-align: center;
     font-kerning: normal;
@@ -93,7 +92,6 @@ html {
     font-weight: 600;
     font-style: italic;
     color: black;
-
   }
 
   .skills-list {
@@ -107,7 +105,6 @@ html {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 500;
     font-style: normal;
-
   }
 
   .purpleflower {
@@ -140,7 +137,6 @@ html {
 
   .star {
     display: none;
-
   }
 
   .bluestar {
@@ -148,7 +144,6 @@ html {
     z-index: -1;
     margin-top: -120px;
     margin-left: 40px;
-
   }
 }
 
@@ -235,7 +230,6 @@ html {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 500;
     font-style: normal;
-
   }
 
   .purpleflower {
@@ -273,7 +267,6 @@ html {
     position: absolute;
     margin-top: -75px;
     margin-left: 460px;
-
   }
 
   .bluestar {
@@ -281,9 +274,7 @@ html {
     z-index: -1;
     margin-top: -120px;
     margin-left: 150px;
-
   }
-
 }
 
 @media (min-width: 768px) {
@@ -303,15 +294,17 @@ html {
     font-kerning: 50px;
     font-style: normal;
     color: black;
-
   }
 
   .roles {
     margin-left: 100px;
   }
-
-  .challenge {
+  .mainchallenge {
     text-align: center;
+  }
+  .challenge {
+    position: relative;
+    margin-left: 300px;
   }
 
   .step {
@@ -329,7 +322,6 @@ html {
 
   .stepDescription {
     font-size: 16px;
-
   }
 
   .design {
@@ -340,13 +332,11 @@ html {
     font-size: 20px;
     margin-top: -100px;
     font-style: italic;
-    color: #0C2167;
-
+    color: #0c2167;
   }
 
   .margin {
     margin-top: -60px;
-
   }
 
   .challengemargin {
@@ -376,7 +366,6 @@ html {
   }
 
   /* end of project*/
-
 
   /* about me */
   .film {
@@ -410,8 +399,6 @@ html {
     margin-top: 35px;
   }
 
-
-
   /*  */
   .background-vrsk {
     position: absolute;
@@ -419,7 +406,6 @@ html {
     margin-top: 50px;
     margin-left: 250px;
     max-width: 100%;
-
   }
 
   .landing-title {
@@ -448,7 +434,6 @@ html {
     color: black;
   }
 
-
   .skills-list {
     text-align: right;
     font-size: 30px;
@@ -460,7 +445,6 @@ html {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 500;
     font-style: normal;
-
   }
 
   .purpleflower {
@@ -498,7 +482,6 @@ html {
     position: absolute;
     margin-top: -75px;
     margin-left: 460px;
-
   }
 
   .bluestar {
@@ -506,12 +489,8 @@ html {
     z-index: -1;
     margin-top: -120px;
     margin-left: 150px;
-
   }
-
 }
-
-
 
 @media (min-width: 992px) {
   .container {
@@ -594,7 +573,6 @@ html {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 500;
     font-style: normal;
-
   }
 
   .purpleflower {
@@ -632,7 +610,6 @@ html {
     position: absolute;
     margin-top: -85px;
     margin-left: 600px;
-
   }
 
   .bluestar {
@@ -640,7 +617,6 @@ html {
     z-index: -1;
     margin-top: -170px;
     margin-left: 250px;
-
   }
 }
 
@@ -681,10 +657,13 @@ html {
     margin-top: 100px;
   }
 
+  .creditfilm {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 300px;
+  }
 
   /* about page */
-
-
 
   .background-vrsk {
     position: absolute;
@@ -694,7 +673,6 @@ html {
     max-width: 100%;
     /* width: 978px;
     height: 870px; */
-
   }
 
   .landing-title {
@@ -733,7 +711,6 @@ html {
     font-family: roc-grotesk-wide, sans-serif;
     font-weight: 500;
     font-style: normal;
-
   }
 
   .purpleflower {
@@ -773,7 +750,6 @@ html {
     position: absolute;
     margin-top: -99px;
     margin-left: 840px;
-
   }
 
   .bluestar {
@@ -781,7 +757,146 @@ html {
     z-index: -1;
     margin-top: -225px;
     margin-left: 350px;
+  }
+}
 
+@media (min-width: 1900px) {
+  .container {
+    max-width: 1899.98;
+  }
+
+  /* about page */
+  .film {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 80px;
+  }
+
+  .note {
+    position: relative;
+    z-index: -1;
+    margin-left: 300px;
+    margin-top: 170px;
+  }
+
+  .smallflower {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 30px;
+  }
+
+  .blue {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 600px;
+  }
+
+  .greenstar {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 120px;
+  }
+
+  .creditfilm {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 300px;
+  }
+
+  /* about page */
+
+  .background-vrsk {
+    position: absolute;
+    z-index: -1;
+    margin-top: 25px;
+    margin-left: 1200px;
+    max-width: 100%;
+    /* width: 978px;
+    height: 870px; */
+  }
+
+  .landing-title {
+    font-kerning: normal;
+    font-size: 124px;
+    line-height: 150%;
+    margin-left: 90px;
+    font-family: cheee-oldskool, sans-serif;
+    font-weight: 400;
+    font-kerning: 50px;
+    font-style: normal;
+    color: #dcc6f1;
+    text-shadow: 2px 2px #000000;
+  }
+
+  .work-title {
+    text-align: center;
+    font-kerning: normal;
+    font-size: 124px;
+    line-height: 150%;
+    font-family: temeraire, serif;
+    font-weight: 600;
+    font-style: italic;
+    /* font-kerning: 50px; */
+    color: black;
+  }
+
+  .skills-list {
+    text-align: right;
+    font-size: 30px;
+    line-height: 150%;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    color: #dcc6f1;
+    padding: 40px;
+    font-family: roc-grotesk-wide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .purpleflower {
+    position: absolute;
+    z-index: -1;
+    margin-top: -450px;
+    margin-left: 1150px;
+  }
+
+  .greenflower {
+    position: absolute;
+    z-index: -1;
+    margin-top: -420px;
+    margin-left: 640px;
+  }
+
+  .pineflower {
+    position: absolute;
+    z-index: -1;
+    margin-top: -24px;
+    margin-left: 820px;
+  }
+
+  .purplestar {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 1210px;
+  }
+
+  .smiley {
+    position: absolute;
+    margin-top: -137px;
+    margin-left: 665px;
+  }
+
+  .star {
+    position: absolute;
+    margin-top: -99px;
+    margin-left: 1070px;
+  }
+
+  .bluestar {
+    position: absolute;
+    z-index: -1;
+    margin-top: -225px;
+    margin-left: 600px;
   }
 }
 
@@ -808,8 +923,8 @@ html {
   margin-left: 0;
 }
 
-.no-gutters>.col,
-.no-gutters>[class*="col-"] {
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -2667,8 +2782,6 @@ html {
 }
 
 @media (min-width: 768px) {
-
-
   .flex-md-row {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: normal !important;
