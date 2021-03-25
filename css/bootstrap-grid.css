@@ -299,9 +299,11 @@ html {
   .roles {
     margin-left: 100px;
   }
+
   .mainchallenge {
     text-align: center;
   }
+
   .challenge {
     position: relative;
     margin-left: 300px;
@@ -317,7 +319,7 @@ html {
   }
 
   .stepColumn {
-    margin-left: 10px;
+    justify-content: center;
   }
 
   .stepDescription {
@@ -625,6 +627,104 @@ html {
     max-width: 1140px;
   }
 
+  /* project */
+  .push {
+    margin-left: 200px;
+  }
+
+  .project-title {
+    font-kerning: normal;
+    font-size: 80px;
+    line-height: 150%;
+    margin-left: 90px;
+    margin-bottom: 0px;
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 500;
+    font-kerning: 50px;
+    font-style: normal;
+    color: black;
+  }
+
+  .roles {
+    margin-left: 100px;
+  }
+
+  .mainchallenge {
+    text-align: center;
+  }
+
+  .challenge {
+    position: relative;
+    margin-left: 300px;
+  }
+
+  .step {
+    color: gray;
+  }
+
+  .stepName {
+    font-size: 24px;
+    text-decoration: underline;
+  }
+
+  .stepColumn {
+    align-content: center;
+    margin-left: 200px;
+
+  }
+
+  .stepDescription {
+    font-size: 16px;
+  }
+
+
+
+  .design {
+    margin-top: -50px;
+  }
+
+  .question {
+    font-size: 20px;
+    margin-top: -100px;
+    font-style: italic;
+    color: #0c2167;
+  }
+
+  .margin {
+    margin-top: -60px;
+  }
+
+  .challengemargin {
+    margin-top: -100px;
+    text-align: center;
+  }
+
+  .wireframes {
+    position: relative;
+    margin-left: 170px;
+  }
+
+  .styleguide {
+    position: relative;
+    margin-left: 225px;
+  }
+
+  .infotech {
+    margin-left: 400px;
+  }
+
+  .play {
+    position: absolute;
+    margin-left: 300px;
+  }
+
+  .header-mock {
+    margin-left: 800px;
+    position: absolute;
+    margin-top: 90px;
+  }
+
+  /* end of project*/
   /* about page */
   .film {
     position: absolute;
@@ -765,6 +865,104 @@ html {
     max-width: 1899.98;
   }
 
+  /* project */
+  .push {
+    margin-left: 200px;
+  }
+
+  .project-title {
+    font-kerning: normal;
+    font-size: 80px;
+    line-height: 150%;
+    margin-left: 90px;
+    margin-bottom: 0px;
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 500;
+    font-kerning: 50px;
+    font-style: normal;
+    color: black;
+  }
+
+  .roles {
+    margin-left: 100px;
+  }
+
+  .mainchallenge {
+    text-align: center;
+  }
+
+  .challenge {
+    position: relative;
+    margin-left: 550px;
+  }
+
+  .step {
+    color: gray;
+  }
+
+  .stepName {
+    font-size: 24px;
+    text-decoration: underline;
+  }
+
+  .stepColumn {
+    align-content: center;
+    margin-left: 200px;
+
+  }
+
+  .stepDescription {
+    font-size: 16px;
+  }
+
+
+
+  .design {
+    margin-top: -50px;
+  }
+
+  .question {
+    font-size: 20px;
+    margin-top: -100px;
+    font-style: italic;
+    color: #0c2167;
+  }
+
+  .margin {
+    margin-top: -60px;
+  }
+
+  .challengemargin {
+    margin-top: -100px;
+    text-align: center;
+  }
+
+  .wireframes {
+    position: relative;
+    margin-left: 170px;
+  }
+
+  .styleguide {
+    position: relative;
+    margin-left: 300px;
+  }
+
+  .infotech {
+    margin-left: 400px;
+  }
+
+  .play {
+    position: absolute;
+    margin-left: 300px;
+  }
+
+  .header-mock {
+    margin-left: 1000px;
+    position: absolute;
+    margin-top: 90px;
+  }
+
+  /* end of project*/
   /* about page */
   .film {
     position: absolute;
@@ -923,8 +1121,8 @@ html {
   margin-left: 0;
 }
 
-.no-gutters > .col,
-.no-gutters > [class*="col-"] {
+.no-gutters>.col,
+.no-gutters>[class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
