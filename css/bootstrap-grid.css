@@ -632,6 +632,37 @@ html {
     margin-left: 200px;
   }
 
+  .push {
+    margin-left: 200px;
+  }
+
+  .designprocess {
+    position: relative;
+    margin-left: 330px;
+  }
+
+  .needs {
+    position: relative;
+    margin-left: 200px;
+  }
+
+  .gaps {
+    position: relative;
+    margin-left: 340px;
+  }
+
+
+  .sitemapasl {
+    position: relative;
+    margin-left: 300px;
+  }
+
+
+  .persona {
+    position: relative;
+    margin-left: 370px;
+  }
+
   .project-title {
     font-kerning: normal;
     font-size: 80px;
