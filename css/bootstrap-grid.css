@@ -868,6 +868,23 @@ html {
     margin-left: 200px;
   }
 
+  .designprocess {
+    position: relative;
+    margin-left: 565px;
+  }
+
+  .sitemapasl {
+    position: relative;
+    margin-left: 550px;
+  }
+
+
+  .persona {
+    position: relative;
+    margin-left: 600px;
+  }
+
+
   .project-title {
     font-kerning: normal;
     font-size: 80px;
@@ -939,7 +956,9 @@ html {
 
   .styleguide {
     position: relative;
-    margin-left: 300px;
+    margin-left: 510px;
+    margin-top: -60px;
+
   }
 
   .infotech {
@@ -1116,8 +1135,8 @@ html {
   margin-left: 0;
 }
 
-.no-gutters > .col,
-.no-gutters > [class*="col-"] {
+.no-gutters>.col,
+.no-gutters>[class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
